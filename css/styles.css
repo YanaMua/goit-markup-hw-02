@@ -51,13 +51,13 @@ color: var(--c-a-hover);
 
 /* Top Line */
 .top-line {
-    padding: 0px;
+    /* padding: 0px;
     width: 1440px;
     height: 72px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-shrink: 0;
+    flex-shrink: 0; */
 }
 
 /* Menu navigation (logo+menu) */
@@ -99,16 +99,17 @@ color: var(--c-a-hover);
 /* menu */
 .menu {
     font-weight: 500;     
-    height: 24px;
-    width: 261px;}
-    /*  
+    /* height: 24px;
+    width: 261px;
+ 
     align-items: flex-start;
     gap: 40px;
     padding: 0;
     border: 0;
 
     margin-top: 24px;
-    margin-left: 76px;}*/
+    margin-left: 76px; */
+}
 
 /* .link-menu keine*/
 
