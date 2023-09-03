@@ -161,9 +161,10 @@ color: var(--c-a-hover);
     color: var(--color-hero);
     letter-spacing: 0.04em;
     /* border: none;
-    border-radius: 4px; */
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);*/
     background: var(--bc-hero-button);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    
     
     cursor: pointer;
 
@@ -247,7 +248,7 @@ h3 {
 /* Header h3 in section 2 Our advantages*/
 .header-advantages {
     text-align: left;
-    width: 264px
+    /* width: 264px */
 }
 
 .advantages-text {
@@ -301,11 +302,11 @@ h3 {
     
     .header-team {
         text-align: center;
-        margin-top: 72px;
+        /* margin-top: 72px; */
     }
     .team-card-text {
         text-align: center;
-        margin-top: 0;
+        /* margin-top: 0; */
     }
 /* Section 4 Our Portfolio */
 .section-portfolio {
