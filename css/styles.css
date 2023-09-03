@@ -1,0 +1,358 @@
+:root {
+    --c-body: #434455;
+    --c-logo_web: #4D5AE5;
+    --c-logo-studio-footer: #F4F4FD;
+    --color-hero: #FFF;
+    --c-title: #2E2F42;
+    --c-a: #404BBF;
+    --c-a-hover: #404BBF;
+    --c-border: #E7E9FC;
+
+    --bc-body: #FFF;
+    --bc-hero: #2E2F42;
+    --bc-hero-button: #4D5AE5;
+    --bc-team-fon:#F4F4FD;
+}
+
+body {
+    background-color: var(--bc-body);
+    padding: 0;
+    width: 1440px;
+    height: 3300px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-Size: 16px;
+    line-height: 1.5;
+    color: var(--c-body);
+    letter-spacing: 0.02em;
+}
+/* For all "ul" */
+ul {
+	list-style-type: none;
+    display: inline-flex;
+    gap: 24px;
+
+}
+
+a {
+    text-decoration: none;
+    font-style: normal;
+    color: var(--c-title);   
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--c-a-hover);
+}
+a:focus {
+color: var(--c-a-hover);
+}
+
+/* Top Line */
+.top-line {
+    padding: 0px;
+    width: 1440px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+/* Menu navigation (logo+menu) */
+.navigation {
+    padding: 0;
+    border: 0;
+}
+
+/* Logo */
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+
+    height: 24px;
+    width: 115px;
+    text-transform: uppercase;
+    color: var(--c-logo_web);
+
+    padding: 0;
+    border: 0;
+    margin-top: 24px;
+    margin-left: 0px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+/* Logo color */
+.logo-studio-head {
+    color: var(--c-title);
+}
+
+.logo-studio-footer {
+    color: var(--c-logo-studio-footer);
+    text-transform: uppercase;
+}
+
+/* menu */
+.menu {
+    font-weight: 500;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 0;
+    border: 0;
+    
+    height: 24px;
+    width: 261px;
+
+    margin-top: 24px;
+    margin-left: 76px;
+}
+/* .link-menu keine*/
+
+
+/* address */
+.address {
+    gap: 40px;
+    margin-top: 24px;
+    margin-left: 332px;
+    font-style: normal;
+}
+.link-address {
+    color: var(--c-body);
+}
+
+/* Section 1 Hero image */
+
+/* background */
+
+.section-hero {
+    width: 1440px;
+    height: 600px;
+    padding: 0;
+    border: 0;
+    background:var(--bc-hero);
+    margin-top: 0;
+    
+    }
+/* Header 1 */
+.hero-title {
+    color: var(--color-hero);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+
+    padding-top: 188px;
+    padding-left: 472px;
+    padding-right: 472px;
+    padding-bottom: 48px;
+    }
+
+/* Button */
+.hero-button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-Size: 16px;
+    line-height: 1.5;
+    color: var(--color-hero);
+    letter-spacing: 0.04em;
+    border: none;
+    border-radius: 4px;
+    background: var(--bc-hero-button);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    
+    cursor: pointer;
+
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+
+    margin-bottom: 188px;
+    margin-left: 636px; 
+}
+.hero-button:hover {
+    background-color: var(--c-a)
+}
+.hero-button:focus {
+    background-color: var(--c-a)
+}
+
+/*Section 2 Our advantages */
+/* invisible title h2 visuell */
+
+.section-advantages {
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 1440px;
+}
+ /* invisible title visuell */
+ .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+    white-space: nowrap;
+ }
+
+/* All header h2*/
+h2 {
+    padding: 0;
+    color: var(--c-title);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+/* list all advantages */
+.all-advantages {
+    padding-top: 120px;
+    padding-left: 156px;
+    padding-right: 156px;
+    padding-bottom: 120px;
+
+    border: 0;
+    width: 1128px;
+    height: 104px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+        
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* All header h3 */
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--c-title);
+}
+
+/* Header h3 in section 2 Our advantages*/
+.header-advantages {
+    text-align: left;
+    width: 264px
+}
+
+.advantages-text {
+    width: 264px;
+    text-align: left;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+/* Section 3 Team */
+
+.section-team {
+    padding: 0;
+    width: 1440px;
+    height: 732px;
+    background-color: var(--bc-team-fon);
+    margin-top: 0px;
+    margin-bottom:0px;
+}
+
+    /* Header h2 in sektion team */
+.header-section-team {
+    padding-top: 120px;
+    padding-bottom: 72px;    
+    display: flex;
+    justify-content: center;
+}
+
+/* Team cards */
+
+.team-all-cards {
+    padding-top: 0;
+    padding-left: 156px;
+    padding-right: 156px;
+    padding-bottom: 120px;
+
+    border: 0;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    }
+
+    .team-card {
+        display: inline-flex;
+        padding-bottom: 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--bc-body);
+    }
+    
+    .header-team {
+        text-align: center;
+        margin-top: 72px;
+    }
+    .team-card-text {
+        text-align: center;
+        margin-top: 0;
+    }
+/* Section 4 Our Portfolio */
+.section-portfolio {
+    width: 1128px;
+    height: 1000px;
+    flex-shrink: 0;
+
+    padding-top: 120px;
+    padding-left: 156px;
+    padding-right: 156px;
+    padding-bottom: 120px;
+    background-color: var(--bc-body);
+    border: 1px;
+}
+.header-portfolio {
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 72px;
+}
+/* .all-projects*/
+   
+.project {
+    width: 360px;
+    height: 420px;
+    padding-top: 0px;
+    padding-bottom: 32px;
+
+    border: 1px solid var(--c-border);
+    background-color: var(--bc-body);
+/* дописати решту параметрів, що розміщують текст в середині картки і те, що розміщує самі картки в квадрат*/
+}
+.header-project {
+    text-align: left; 
+}
+.text-project {
+    text-align: left;
+}
+
+/*footer  */
+.footer {
+    width: 1440px;
+    height: 312px;
+    padding: 0;
+    background-color: var(--bc-hero);
+}
+.text-footer {
+    text-align: left;
+    color: var(--c-logo-studio-footer);
+}
+
